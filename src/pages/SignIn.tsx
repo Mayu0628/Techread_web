@@ -1,13 +1,13 @@
 import Button from "../component/button/Button";
-import styles from "../styles/Login.module.css";
-import { Link } from "react-router-dom";
+import styles from '../styles/signUp.module.css'
 
-const Login = () => {
+const SignIn = () => {
   return (
     <div className={styles.login_container}>
       <div className={styles.login_main_container}>
-        <h1>Login</h1>
+        <h1>Sign in</h1>
         <div className={styles.input_container}>
+          <input type="text" placeholder="名前" className={styles.mail} />
           <input
             type="text"
             placeholder="メールアドレス"
@@ -15,13 +15,10 @@ const Login = () => {
           />
           <input type="text" placeholder="パスワード" />
         </div>
-        <Button>ログイン</Button>
-        <Link to="/sign-in" className={styles.link}>
-          アカウントをお持ちでない方はこちら
-        </Link>
+        <Button>サインイン</Button>
       </div>
     </div>
   );
-};
+}
 
-export default Login;
+export default SignIn;
