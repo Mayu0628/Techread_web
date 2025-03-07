@@ -1,5 +1,5 @@
-import Button from "../component/button/Button";
-import styles from "../styles/Login.module.css";
+import styles from "@/styles/Login.module.css";
+import Button from "@/components/button/Button";
 
 const Login = () => {
   return (
