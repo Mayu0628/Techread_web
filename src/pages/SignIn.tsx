@@ -1,5 +1,5 @@
-import Button from "../component/button/Button";
-import styles from '../styles/signUp.module.css'
+import Button from "@/components/button/Button";
+import styles from "@/styles/signUp.module.css";
 
 const SignIn = () => {
   return (
@@ -19,6 +19,6 @@ const SignIn = () => {
       </div>
     </div>
   );
-}
+};
 
 export default SignIn;
