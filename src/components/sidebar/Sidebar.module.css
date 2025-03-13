@@ -1,0 +1,30 @@
+.sidebar_container {
+  background-image: linear-gradient(
+    180deg,
+    #09368c 20%,
+    #0063aa 68%,
+    #71a2b6 90%
+  );
+}
+
+.sidebar_icons {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding: 15px;
+  gap: 35px;
+}
+
+.sidebar_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon :hover {
+  color: #bbcdff;
+  border-radius: 50%;
+  cursor: pointer;
+}
